@@ -31,7 +31,7 @@ print(f"a value is {a}\nb value is {b}\nc value is {c}")
 # Part C
 print("\n##########################################################################################")
 print("                                      part C ")
-# No, In Python it is the same
+# No, In Python is the same
 
 # The problem in the code is that we tried to add string to int
 my_number = 5 + 5
@@ -43,7 +43,7 @@ print("\n#######################################################################
 print("                                      part D ")
 x = 5
 y = 2.36
-print(f"the result of x + int(y) is: {x + int(y)}")
+print(f'the result of "print(x + int(y))" is: {x + int(y)}')
 
 ##################################################################################################
 # CHALLENGE
