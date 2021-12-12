@@ -7,14 +7,14 @@ def task1():
     first_number = 100
     second_number = 200
     print("Before swap :")
-    print(f"first value is :{first_number}, second value is :{second_number}\n")
+    print(f"the first value is:{first_number}, the second value is:{second_number}\n")
 
     swap_helper = first_number
     first_number = second_number
     second_number = swap_helper
 
     print("After swap :")
-    print(f"first value is :{first_number}, second value is :{second_number}")
+    print(f"the first value is:{first_number}, the second value is:{second_number}")
 
 
 ##################################################################################################
@@ -24,14 +24,14 @@ def task2():
     first_number = 50
     second_number = 100
     print("Before swap :")
-    print(f"first value is :{first_number}, second value is :{second_number}\n")
+    print(f"the first value is:{first_number}, the second value is:{second_number}\n")
 
     first_number = first_number + second_number
     second_number = first_number - second_number
     first_number = first_number - second_number
 
     print("After swap :")
-    print(f"first value is :{first_number}, second value is :{second_number}")
+    print(f"the first value is:{first_number}, the second value is:{second_number}")
 
 
 ##################################################################################################
@@ -42,10 +42,10 @@ def task3():
 
     first_number_cubes = first_number * first_number * first_number
     second_number_cubes = second_number * second_number * second_number
-
-    print(f"your first input cubes is : {first_number}^3 = {first_number_cubes} ")
-    print(f"your second input cubes is : {second_number}^3 = {second_number_cubes} ")
-    print(f"the sum of both numbers is {first_number_cubes + second_number_cubes}")
+    print("")
+    print(f"Your first input cubes are  : {first_number}^3 = {first_number_cubes} ")
+    print(f"Your second input cubes are  : {second_number}^3 = {second_number_cubes} ")
+    print(f"The sum of both numbers is : {first_number_cubes + second_number_cubes}")
 
 
 ##################################################################################################
@@ -54,17 +54,21 @@ def task4():
     first_number = input_number("Please enter your first number :")
     second_number = input_number("Please enter your second number :")
     third_number = input_number("Please enter your third number :")
+    print("")
+
+    if first_number == second_number == third_number:
+        print(f"All variables is equal to {first_number}")
 
     if first_number == second_number:
-        print(f"the variables that equal is the first Number and second Number and they equal to :{first_number}")
+        print(f"The equal variables are the first input and the second input. \nthey equal to :{first_number}")
 
     elif first_number == third_number:
-        print(f"the variables that equal is the first Number and third number and they equal to :{first_number}")
+        print(f"The equal variables are the first input and the third input.\nthey equal to :{first_number}")
 
     elif second_number == third_number:
-        print(f"the variables that equal is the second number and third number and they equal to :{second_number}")
+        print(f"The equal variables are the second input and the third input.\nthey equal to :{second_number}")
     else:
-        print("no the 2 inputs that equal ")
+        print("No equal inputs ")
 
 
 ##################################################################################################
@@ -75,13 +79,13 @@ def task5():
     third_number = input_number("Please enter your third number :")
 
     if first_number < second_number and first_number < third_number:
-        print(f"The smallest variable is first number that equal to {first_number}")
+        print(f"The smallest variable is the first input.\nthe number is : {first_number}")
 
     elif second_number < third_number:
-        print(f"The smallest variable is second number that equal to {second_number}")
+        print(f"The smallest variable is the second input.\nthe number is :{second_number}")
 
     else:
-        print(f"The smallest variable is third number that equal to {third_number}")
+        print(f"The smallest variable is the third input.\nthe number is : {third_number}")
 
 
 ##################################################################################################
@@ -93,6 +97,7 @@ def input_number(text):
         number = input("Invalid input , " + text)
 
     return int(number)
+
 
 def task_chooses(task):
     if task == 1:
@@ -111,12 +116,7 @@ def task_chooses(task):
 # main
 
 if __name__ == "__main__":
-    # task = input_number("Please choose your task number (from 1 to 5) :")
-    # print("")
-    # task_chooses(task)
-    # print("")
-    # another_task = input("Do You Want to continue (Y/n) ")
-    another_task="Y"
+    another_task = "Y"
     while another_task == "Y" or another_task == "y":
         task = input_number("Please choose your task number (from 1 to 5) :")
         print("")
@@ -126,5 +126,3 @@ if __name__ == "__main__":
         print("")
 
     print("The program go to the end ,Thank you :)")
-
-
