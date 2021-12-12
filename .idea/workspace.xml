@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="73b8b131-d031-45ec-bdef-b17af504707e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/bonus/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/bonus/Solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,15 +24,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lesson 1/bonus" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../OpalPro90LTD Projects" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dropbox\Orel\Computer Science\My Projects\OpalPro90LTD Projects" />
       <recent name="D:\Dropbox\Orel\Computer Science\My Projects\DevOps-Experts course\Lesson 1\bonus" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution-bonus">
+  <component name="RunManager" selected="Python.kamatera">
     <configuration name="Solution" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevOps-Experts course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,16 +119,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Solution" />
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.kamatera" />
-      <item itemvalue="Python.Solution" />
-      <item itemvalue="Python.Solution-bonus" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Solution-bonus" />
-        <item itemvalue="Python.Solution" />
         <item itemvalue="Python.kamatera" />
+        <item itemvalue="Python.Solution" />
       </list>
     </recent_temporary>
   </component>
