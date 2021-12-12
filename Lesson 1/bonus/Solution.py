@@ -94,13 +94,7 @@ def input_number(text):
 
     return int(number)
 
-
-##################################################################################################
-# main
-
-if __name__ == "__main__":
-    task = input_number("Please choose your task number (from 1 to 5) :")
-    print("")
+def task_chooses(task):
     if task == 1:
         task1()
     elif task == 2:
@@ -111,3 +105,26 @@ if __name__ == "__main__":
         task4()
     elif task == 5:
         task5()
+
+
+##################################################################################################
+# main
+
+if __name__ == "__main__":
+    # task = input_number("Please choose your task number (from 1 to 5) :")
+    # print("")
+    # task_chooses(task)
+    # print("")
+    # another_task = input("Do You Want to continue (Y/n) ")
+    another_task="Y"
+    while another_task == "Y" or another_task == "y":
+        task = input_number("Please choose your task number (from 1 to 5) :")
+        print("")
+        task_chooses(task)
+        print("")
+        another_task = input("Do You Want to continue (Y/n) ")
+        print("")
+
+    print("The program go to the end ,Thank you :)")
+
+
