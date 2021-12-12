@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DevOps-Experts course.iml" filepath="$PROJECT_DIR$/.idea/DevOps-Experts course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OpalPro90LTD Projects/.idea/OpalPro90LTD Projects.iml" filepath="$PROJECT_DIR$/../OpalPro90LTD Projects/.idea/OpalPro90LTD Projects.iml" />
     </modules>
   </component>
 </project>
