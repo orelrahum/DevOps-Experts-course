@@ -181,4 +181,4 @@ def result(number):
     return sum_digit
 
 
-result(27)
+print(result(7))
