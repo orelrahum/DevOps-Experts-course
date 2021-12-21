@@ -1,0 +1,6 @@
+1. Write a python program to swap two numbers using a third variable
+2. Write a python program to swap two numbers without using third variable
+3. Write a python program to read two numbers and find the sum of their cubes
+4. Write a python program to read three numbers and if any two variables are equal , print that number
+5. Write a python program to read three numbers and find the smallest among them
+
