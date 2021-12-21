@@ -1,4 +1,4 @@
-# My Solution for bonus task 1
+# My Solution for bonus task 2
 # Wrote By Orel Rahum
 
 ##################################################################################################
