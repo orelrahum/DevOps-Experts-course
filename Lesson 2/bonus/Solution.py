@@ -13,7 +13,7 @@ def task1():
 # help : https://www.javatpoint.com/program-to-swap-two-numbers-without-using-the-third-variable
 def task2():
     for index in range(1, 6):
-        for index2 in range(1,index + 1):
+        for index2 in range(1, index + 1):
             print(index2, end=" ")
         print("")
 
@@ -24,7 +24,7 @@ def task3():
     sum = 0
     user_number = input_number("Please enter your your number :")
 
-    for index in range(1, user_number+1):
+    for index in range(1, user_number + 1):
         sum += index
     print((f"Your Factorial number is : {sum}"))
 
@@ -32,12 +32,12 @@ def task3():
 ##################################################################################################
 # 4 . Write a python program to read three numbers and if any two variables are equal , print that number
 def task4():
-    list=[]
+    list = []
     # number of elements as input
     n = int(input_number("Enter number of elements : "))
 
     # iterating till the range
-    for i in range(1, n+1):
+    for i in range(1, n + 1):
         ele = int(input_number(f"Enter index {i} :"))
 
         list.append(ele)  # adding the element
@@ -67,7 +67,6 @@ def task_chooses(task):
         task3()
     elif task == 4:
         task4()
-
 
 
 ##################################################################################################
