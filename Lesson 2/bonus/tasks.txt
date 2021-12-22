@@ -1,6 +1,38 @@
-1. Write a python program to swap two numbers using a third variable
-2. Write a python program to swap two numbers without using third variable
-3. Write a python program to read two numbers and find the sum of their cubes
-4. Write a python program to read three numbers and if any two variables are equal , print that number
-5. Write a python program to read three numbers and find the smallest among them
+Print First 10 natural numbers using while loop
+Expected output:
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
 
+
+Write a program to print the following number pattern using a loop
+Expected Output:
+    1
+    1 2
+    1 2 3
+    1 2 3 4
+    1 2 3 4 5
+
+
+Write a program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
+For example, if the user entered 10 the output should be 55 (1+2+3+4+5+6+7+8+9+10)
+Expected Output:
+      Enter number 10
+      Sum is:  55
+
+
+Print list in reverse order using a loop
+Given: list1 = [10, 20, 30, 40, 50]
+Expected output:
+   50
+   40
+   30
+   20
+   10
