@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73b8b131-d031-45ec-bdef-b17af504707e" name="Changes" comment="add lesson2bonus solving">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 2/bonus/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 2/bonus/Solution.py" afterDir="false" />
-    </list>
+    <list default="true" id="73b8b131-d031-45ec-bdef-b17af504707e" name="Changes" comment="add lesson2bonus solving" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lesson 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -175,12 +172,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.Solution (1)" />
+      <item itemvalue="Python.Solution (2)" />
+      <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.a" />
       <item itemvalue="Python.b" />
       <item itemvalue="Python.check" />
-      <item itemvalue="Python.a" />
-      <item itemvalue="Python.Solution (2)" />
     </list>
     <recent_temporary>
       <list>
