@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b8b131-d031-45ec-bdef-b17af504707e" name="Changes" comment="push">
+      <change afterPath="$PROJECT_DIR$/Lesson 4/tip_tester.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 3/Solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/Solution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 3/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson 3/words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 3/words.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +25,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="229e2c8pPM2KRPwQCSRIITmAjBk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WorldOfGames" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -50,28 +51,7 @@
       <recent name="D:\Dropbox\Orel\Computer Science\My Projects\DevOps-Experts course\Lesson 2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Solution">
-    <configuration name="Solution (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DevOps-Experts course" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson 2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson 2/Solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.tip_tester">
     <configuration name="Solution (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DevOps-Experts course" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,21 +157,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tip_tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DevOps-Experts course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson 4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson 4/tip_tester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.Solution (1)" />
       <item itemvalue="Python.Solution (2)" />
       <item itemvalue="Python.Solution" />
       <item itemvalue="Python.a (1)" />
       <item itemvalue="Python.a" />
+      <item itemvalue="Python.tip_tester" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tip_tester" />
         <item itemvalue="Python.Solution" />
         <item itemvalue="Python.a (1)" />
         <item itemvalue="Python.Solution (2)" />
         <item itemvalue="Python.a" />
-        <item itemvalue="Python.Solution (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640861224686</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="push">
+      <created>1641204446699</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1641204446699</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
