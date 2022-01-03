@@ -1,6 +1,9 @@
 # My Solution for assignment  1
 # Wrote By Orel Rahum
 from flask import Flask
+import requests
+import multiprocessing
+from PIL import Image, ImageDraw
 
 ##################################################################################################
 ### Console colors
@@ -120,14 +123,37 @@ app = Flask(__name__)
 def hello():
     return "Hello World!"
 
-
 @app.route("/content")
 def read():
-    with open(output_file, "r", encoding='utf-8') as file:
-        for line in file.readlines():
-            print(line)
+    return open("words.txt", "r", encoding='utf-8').read(), 200
+
 
 @app.route("/register")
+def register():
+    open("words.txt", 'a', encoding='utf-8').write("hello")
+    return "success", 201
 
 
-app.run(port=30000)
+def run_app():
+    app.run(port=30000)
+
+
+def status_code_checker():
+    status_code_content = requests.get("http://127.0.0.1:30000/content").status_code
+    status_code_register = requests.get("http://127.0.0.1:30000/register").status_code
+    print(f"127.0.0.1/content status code is {status_code_content}")
+    print(f"127.0.0.1/content status code is {status_code_register}")
+
+
+#p1 = multiprocessing.Process(target=run_app).run()
+#p2 = multiprocessing.Process(target=status_code_checker).run()
+
+##################################################################################################
+# Part 12
+print("\n##########################################################################################")
+print("                                      part 12 \n")
+img = Image.new('RGB', (100, 30), color=(73, 109, 137))
+d = ImageDraw.Draw(img)
+d.text((10, 10), "DevOps-Expert 0812", fill=(255, 255, 0))
+img.save('DevOps-Expert.png')
+print(G + 'Create image called DevOps-Expert.png' + W)
